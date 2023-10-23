@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+f1=Frame(root,bg="grey",borderwidth=6)
+f1.pack(side=LEFT,fill=Y)
+f2=Frame(root,bg="grey",borderwidth=8)
+f2.pack(side=TOP,fill=X)
+l1=Label(f2,text="Welcome To My Programming",font="Algerian 30 bold",fg="red")
+l1.pack()
+l=Label(f1,text="Project of Tkinter",fg='red',font="bold 15")
+l.pack(pady=143)
